@@ -21,10 +21,10 @@ sort(names(cowsay::animals))
 
 if (interactive()) {
   .First <- function() {
-    cowsay::say("catfact", by_color = "orange")
+    cowsay::say("catfact", by_color = "purple")
   }
 
   .Last <- function() {
-    cowsay::say("Do or do not, there is no try", by = "yoda", by_color = "green")
+    cowsay::say("bye", by = "cat", by_color = "green")
   }
 }

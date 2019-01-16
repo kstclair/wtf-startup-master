@@ -22,8 +22,8 @@ usethis::browse_github_pat()
 ## The environment variable should be called `GITHUB_PAT`07ecd4fd18cbd16aad6f1637f210389290266e61
 usethis::edit_r_environ()
 
-#' Create a new project
-usethis::create_project("wtf")
+#' Create a new project - skipped, already in project
+#usethis::create_project("wtf")
 
 #' Create a README.md in your new project
 usethis::use_readme_md()
@@ -32,4 +32,4 @@ usethis::use_readme_md()
 usethis::use_git()
 
 #' Push the project to GitHub
-usethis::use_github()
+usethis::use_github(protocol = "https")
