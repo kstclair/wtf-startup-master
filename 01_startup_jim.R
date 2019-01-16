@@ -19,7 +19,7 @@ library(usethis)
 usethis::browse_github_pat()
 
 #' Add a GitHub Personal Access Token to your .Renviron
-## The environment variable should be called `GITHUB_PAT`07ecd4fd18cbd16aad6f1637f210389290266e61
+## The environment variable should be called `GITHUB_PAT
 usethis::edit_r_environ()
 
 #' Create a new project - skipped, already in project
